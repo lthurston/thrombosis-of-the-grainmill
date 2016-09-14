@@ -1,6 +1,6 @@
 # Thrombosis of the Grainmill
 
-Thrombomis of the Grainmill is a little command line tool that outputs a string based on a user-defined template. The template uses Go's text/template package, and currently allows iteration over passed arguments. In so doing, it makes me feel much happier than regular old `alias` ever could, hence the name.
+Thrombosis of the Grainmill is a little command line tool that outputs a string based on a user-defined template. The template uses Go's text/template package, and currently allows iteration over passed arguments. In so doing, it makes me feel much happier than regular old `alias` ever could, hence the name.
 
 ## How to Use It
 
