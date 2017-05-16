@@ -8,7 +8,7 @@ In your home directory, make a folder called `.thrombosis-of-the-grainmill`. It 
 
 ```
 $ cat ~/.thrombosis-of-the-grainmill/git-ancestor
-COMMON=`comun{{range .}} <(git rev-list {{.}}){{end}}`
+COMMON=`comun{{range .}} <(git rev-list {{.}} --first-parent){{end}}`
 if [ $? -eq 0 ]; then
        	git show-branch {{range .}}{{.}} {{end}} $COMMON
 else
